@@ -31,5 +31,5 @@ public class MakeGameDate {
         double spenMoney = Double.parseDouble(JOptionPane.showInputDialog(null, "how much would you spend inn dinner time", "Question 8", 3));
         
     }
-    
+
 }
