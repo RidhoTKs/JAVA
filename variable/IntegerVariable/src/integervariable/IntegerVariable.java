@@ -20,7 +20,7 @@ public class IntegerVariable {
         myInt = 2147483647;
         myInt = -2147483648;
         //myInt = 2147483648 ; //error karena nilai melebihi kapasitas memori integer, tidak bisa di casting
-        
+
         //memberikan nilai dari variable lain ke integer
         byte myByte = 1;
         myInt = myByte;
@@ -29,24 +29,24 @@ public class IntegerVariable {
         myInt = myShort;
         System.out.println("short ke integer : " + myInt);
         long myLong = 2147483648L;
-        myInt = (int)myLong;
+        myInt = (int) myLong;
         System.out.println("Long ke integer : " + myInt);
         float myFloat = 2.6F;
-        myInt = (int)myFloat;
+        myInt = (int) myFloat;
         System.out.println("float ke integer : " + myInt);
         double myDouble = 2.6;
-        myInt = (int)myDouble;
+        myInt = (int) myDouble;
         System.out.println("double ke integer : " + myInt);
-    
+
         int totalInt;
         totalInt = myInt + myByte;
         System.out.println("byte + integer : " + totalInt);
         totalInt = myInt + myShort;
         System.out.println("short + integer : " + totalInt);
-        totalInt = myInt + (int)myLong;
+        totalInt = myInt + (int) myLong;
         System.out.println("double + integer : " + totalInt);
         totalInt = (int) (myInt + myFloat);
         System.out.println("float + integer : " + totalInt);
     }
-    
+
 }

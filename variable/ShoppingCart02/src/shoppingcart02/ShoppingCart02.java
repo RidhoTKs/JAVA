@@ -15,7 +15,8 @@ public class ShoppingCart02 {
         // Declare and assign a calculated totalPrice
         double totalPrice = price * quantity + (tax * quantity * price);
         // Modify message to include quantity 
-        message = custName + "wants to purchase "  + quantity + " " + itemDesc + "\n" + "Total cost is : " + totalPrice;
+        message = custName + "wants to purchase " + quantity + " " + itemDesc + "\n"
+                + "Total cost is : " + totalPrice;
         System.out.println(message);
 
         // Print another message with the total cost

@@ -22,7 +22,7 @@ public class ByteVariable {
         myByteVariable = -128; // nilai minimum dari type data byte
         // type data byte dapat disi dengan nilai integer dari -128 sampai 1277
         
-        short shortVariable = 127;
+        short shortVariable = 128;
         //myByteVariable = shortVariable; // tidak bisa memasukan nilai dari type data short meskipun masih dalam jangkauan byte
         myByteVariable =  (byte) shortVariable; // dengann meng-casting short ke byte baru bisa ditambahkan ke  variable byte
         System.out.println(myByteVariable); // jika memberikan nilai diluar dari jangkauannya byte akan mengoprasikannya secara biner
