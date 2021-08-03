@@ -16,17 +16,8 @@ public class PrisonTest {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Prisioner buba = new Prisioner();
-        buba.name = "Buba";
-        buba.height = 6.10;
-        buba.yearSentenced = 4;
-        Prisioner twitch = new Prisioner();
-        twitch.name = new String("Buba");
-        twitch.height = 6.10;
-        twitch.yearSentenced = 4;
-//        buba = twitch;
-        twitch.name= buba.name;
-        System.out.println("is this the same " + (buba.name == twitch.name));
+        Prisioner p01 = new Prisioner("buba", 11.6, 3);
+        Prisioner p02 = new Prisioner("twitch", 10, 4);
     }
     
 }
