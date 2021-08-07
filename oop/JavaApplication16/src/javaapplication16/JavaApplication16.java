@@ -3,24 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package prisontest;
+package javaapplication16;
 
 /**
  *
  * @author RTKS
  */
-public class PrisonTest {
+public class JavaApplication16 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Prisioner p01 = new Prisioner("buba", 11.6, 3);
-        Prisioner p02 = new Prisioner("twitch", 10, 4, 5);
-        p01.printField();
-        p02.printField();
-        
     }
     
 }

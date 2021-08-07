@@ -4,14 +4,18 @@
  * and open the template in the editor.
  */
 package prisontest;
+
 /**
  *
  * @author RTKS
  */
-public class Sipir {
-    public String name = "ridho";
+public class Cell {
+    public String name;
+    public boolean door;
     
-    public void getName(){
-        System.out.println("my name is ridho");
+    
+    public Cell(String name, boolean door){
+        this.name = name;
+        this.door = door;
     }
 }
