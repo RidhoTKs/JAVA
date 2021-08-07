@@ -63,11 +63,13 @@ public class Student implements Comparable<Student> {
         this.mark = mark;
     }
 
+    @Override
     public String toString() {
         return "Student Details: " + firstName
                 + " " + lastName + " " + mark;
     }//
 
+    @Override
     public int compareTo(Student stud2) {
         if (lastName.compareTo(stud2.getLastName()) < 0) {
             return -1;
